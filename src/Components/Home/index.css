@@ -1,0 +1,62 @@
+.headerInputSection {
+  background-color: #3367d6;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.historyLogo {
+  width: 85px;
+  height: 35px;
+}
+.inputContainer {
+  display: flex;
+}
+.searchIcon {
+  background-color: #2850a7;
+  border: #ececec solid 1px;
+  width: 45px;
+  height: 40px;
+  color: #64748b;
+  padding: 5px 10px;
+}
+.inputElement {
+  background-color: #2850a7;
+  border: #ececec solid 1px;
+  padding: 5px;
+  width: 100%;
+  color: #f8fafc;
+  outline: none;
+}
+.historyContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 10px;
+}
+.emptyHistory {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .historyContainer {
+    margin: 20px 100px;
+  }
+  .historyLogo {
+    margin-left: 80px;
+  }
+  .inputContainer {
+    margin-right: 100px;
+  }
+  .inputElement {
+    width: 300px;
+  }
+  .headerInputSection {
+    display: flex;
+    justify-content: space-between;
+  }
+}
